@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.victormartinezsimon.puzzle9gallery.Game$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/textoInformacionGame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal"
+        android:text="Movimientos Restantes: 23" />
+
+    <com.victormartinezsimon.puzzle9gallery.MyCanvas
+        android:id="@+id/myCanvasGame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/textoInformacionGame"
+        android:layout_centerHorizontal="true" 
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

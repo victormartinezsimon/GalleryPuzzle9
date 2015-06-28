@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.victormartinezsimon.puzzle9gallery.MainActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/BotonFacil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Facil" />
+
+        <Button
+            android:id="@+id/BotonMedio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medio" />
+
+        <Button
+            android:id="@+id/BotonDificil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dificil" />
+        
+        <Button
+            android:id="@+id/BotonHighScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mejores puntuaciones" />
+        
+        
+    </LinearLayout>
+
+</RelativeLayout>

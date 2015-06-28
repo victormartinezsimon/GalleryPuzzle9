@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.victormartinezsimon.puzzle9gallery.GameOver"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/MensajeGameOver"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="WELL DONE!!"
+        android:textSize="50dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutGameOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/MensajeGameOver"
+        android:layout_marginTop="31dp"
+        android:orientation="vertical"
+      >
+
+        <TextView
+            android:id="@+id/puntosGameOver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="5 pts" />
+
+        <EditText
+            android:id="@+id/edicionTextoGameOver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPersonName" >
+        </EditText>
+
+        <Button
+            android:id="@+id/botonGuardarGameOver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listaResultadosGameOver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayoutGameOver"
+        android:layout_centerHorizontal="true" >
+
+    </ListView>
+
+</RelativeLayout>
